@@ -602,6 +602,8 @@ img {
 	font-weight: 700;
 	line-height: 1.25;
 	text-align: left;
+	border-top: 2px solid #a8a8a8;
+	border-bottom: 2px solid #a8a8a8;
 }
 
 .price h5 {
@@ -675,6 +677,12 @@ img {
 	box-shadow: 0 3px 20px -2px rgba(20, 45, 100, .1);
 }
 
+.description-content {
+	font-size: 1.15rem;
+	line-height: 2;
+	border: 2px solid #a8a8a8;
+}
+
 .description-area h2 {
 	display: inline-block;
 	color: #222222;
@@ -733,6 +741,7 @@ img {
 
 .tab-content {
 	display: none;
+	line-height: 2;
 }
 
 input[name=tabs]:checked+.tab-content-holder .tab-controller {
